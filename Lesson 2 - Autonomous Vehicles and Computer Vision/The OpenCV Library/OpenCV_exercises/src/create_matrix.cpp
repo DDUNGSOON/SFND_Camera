@@ -20,7 +20,7 @@ void createMatrix1()
 
     // show result
     string windowName = "First steps in OpenCV (m1_8u)";
-    cv::namedWindow(windowName, 1); // create window
+    cv::namedWindow(windowName, 1); // create window test4 hahaha
     cv::imshow(windowName, m1_8u);
     cv::waitKey(0); // wait for keyboard input before continuing
 
