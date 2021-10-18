@@ -20,11 +20,13 @@ void changePixels()
     }
 
     // show result
-    string windowName = "First steps in OpenCV";
+    string windowName = "First steps in OpenCV hahaha";
     cv::namedWindow(windowName, 1); // create window
     cv::imshow(windowName, m1_8u);
     cv::waitKey(0); // wait for keyboard input before continuing
 }
+
+// test test 1 2 3
 
 
 int main()
