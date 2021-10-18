@@ -22,28 +22,23 @@ This repo contains lesson-wise exercises and corresponding solutions for Udacity
    - Object Detection with YOLO
 1. Lesson 7: Starter code for "Project: Track an Object in 3D Space" is available here - https://github.com/udacity/SFND_3D_Object_Tracking
 
-
 ## B. Dependencies for Running Locally
 1. cmake >= 2.8
     * All OSes: [click here for installation instructions](https://cmake.org/install/)
-
 
 2. make >= 4.1 (Linux, Mac), 3.81 (Windows)
     * Linux: make is installed by default on most Linux distros
     * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
     * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
 
-
 3. OpenCV >= 4.1
     * This must be compiled from source using the `-D OPENCV_ENABLE_NONFREE=ON` cmake flag for testing the SIFT and SURF detectors.
     * The OpenCV 4.1.0 source code can be found [here](https://github.com/opencv/opencv/tree/4.1.0)
-
 
 4. gcc/g++ >= 5.4 
     * Linux: gcc / g++ is installed by default on most Linux distros
     * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
     * Windows: recommend using [MinGW](http://www.mingw.org/)
-
 
 ## C. Build Instructions
 1. Fork this repo to your Github account
@@ -65,6 +60,7 @@ Github blocks the files that have size>100MB, while pushing them. To push large 
 You can push large file only to unprotected remote branches. Master branch is by default protected. Read more [here](https://docs.github.com/en/github/administering-a-repository/about-protected-branches). Therefore, you'll have to push to a new unprotected branch, and later, merge it with the remote master. Use the commands below:
 
 * Create a new local branch
+  so difficult
 ```
 git checkout -b <local_branch_name>
 ```
